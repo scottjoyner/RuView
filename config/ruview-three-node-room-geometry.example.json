@@ -1,0 +1,23 @@
+{
+  "schema": "ruview-room-geometry-v1",
+  "room_id": "example-room",
+  "coordinate_frame": {
+    "name": "room-local",
+    "metric": true,
+    "calibrated": false,
+    "origin_description": "Choose and document one fixed room origin before measuring."
+  },
+  "transmitter": {
+    "id": "wifi-ap",
+    "surveyed": false,
+    "position_m": null
+  },
+  "nodes": [
+    {"node_id": 1, "surveyed": false, "position_m": null},
+    {"node_id": 2, "surveyed": false, "position_m": null},
+    {"node_id": 3, "surveyed": false, "position_m": null}
+  ],
+  "phase_reference": "independent_clocks",
+  "ranging_model_calibrated": false,
+  "notes": "Unknown coordinates stay null. Do not mark calibrated or claim metric triangulation until coordinates are measured and the ranging/phase evidence is validated."
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "ruview-room-geometry-v1",
+  "room_id": "replace-me",
+  "coordinate_frame": {
+    "name": "room-local-enu",
+    "metric": true,
+    "calibrated": false,
+    "origin_description": "survey before setting calibrated=true"
+  },
+  "transmitter": {
+    "id": "wifi-ap",
+    "surveyed": false,
+    "position_m": [0.0, 0.0, 0.0]
+  },
+  "nodes": [
+    {"node_id": 1, "surveyed": false, "position_m": [0.0, 0.0, 0.0]},
+    {"node_id": 2, "surveyed": false, "position_m": [0.0, 0.0, 0.0]}
+  ],
+  "phase_reference": "independent_clocks",
+  "ranging_model_calibrated": false,
+  "notes": "Do not replace unknown geometry with guessed coordinates. Two amplitude-only ESP32 links provide diversity, not metric triangulation."
+}
